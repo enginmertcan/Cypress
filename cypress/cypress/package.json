@@ -1,0 +1,20 @@
+{
+  "name": "udemy-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "cy:open": "cypress open",
+    "cy:run":"cypress run",
+    "cy:spec":"cypress run --spec",
+    "cy:test:chrome":"cypress run --browser chrome"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.0.0"
+  }
+}
